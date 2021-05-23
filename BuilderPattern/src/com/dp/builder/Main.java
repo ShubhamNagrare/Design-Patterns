@@ -9,6 +9,7 @@ public class Main {
 		
 		// Implementation from co.dp.builder.bad
 		// Example 1
+		System.out.println("------ I AM PRINTING USING NORMAL CONTRUCTOR PATTERN ------ ");
 		Mobile badMobile1 = new Mobile("ios", 16, "apple", "red", "appleMaps", 7, 1, "blooooTooooth");		
 		String mobileOS1 = badMobile1.getOsName();
 		System.out.println(mobileOS1);
@@ -31,6 +32,7 @@ public class Main {
 		
 		// SOLUTION FOR THIS WOULD BE BUILDER DESIGN PATTERN FOR THIS		
 		// Implementation from co.dp.builder.good
+		System.out.println("------ I AM PRINTING USING CREATIONAL BUILDER DESIGN PATTERN ------- ");
 		MobilePhone mobilePhone1 = new MobilePhone.MobilePhoneBuilder("linux", 256, "tesla", "neon").build();
 		String mobileBrand1 = mobilePhone1.getBrandName();
 		System.out.println(mobileBrand1);
