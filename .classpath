@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Builder Pattern/BuilderPattern/src"/>
+	<classpathentry kind="src" path="Dependency Injection/DependencyInjectionInSpringBoot/.mvn/wrapper"/>
+	<classpathentry kind="src" path="Dependency Injection/DependencyInjectionInSpringBoot/src/main/java"/>
+	<classpathentry kind="src" path="Dependency Injection/DependencyInjectionInSpringBoot/src/test/java"/>
+	<classpathentry kind="lib" path="Dependency Injection/DependencyInjectionInSpringBoot/bin/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="Builder Pattern/BuilderPattern/bin"/>
+</classpath>
